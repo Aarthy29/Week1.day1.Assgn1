@@ -1,0 +1,21 @@
+package week1.day1;
+
+public class Prime {
+	public static void main(String[] args) {
+		int i;
+		int n = 2;
+		//m = n / 2;
+		//System.out.println("n divide by 2 ,quotient is"+m);
+		
+			for (i = 2; i <= 20; i++) {
+				if (i % n == 0) {
+					System.out.println(i + " "+"is not a prime number");
+				}
+		
+			else {
+				System.out.println(i + " "+"is a prime number");
+			}
+		
+
+			}}
+}
